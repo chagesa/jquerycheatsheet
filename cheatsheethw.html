@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<Title>jqueryhw</Title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js">
+		</script>
+	</head>
+	<body>
+		<p id="diff"> Happy Birthday to you</p>
+		<p id="diff1"> It's not my birthday</p>
+		<p id="diff2"> Maybe it's yours?</p>
+		<p id="diff3"> I have to get out more</p>
+
+		<h1> Hello World</h1>
+		<h2> Good morning Sunshine</h2>
+		<h3>I love Coding!</h3>
+		<img id="bday1" src="http://images.clipartpanda.com/happy-birthday-clip-art-happybirthday4.jpg">
+		<img  id="bday2" src="http://www.clipartbest.com/cliparts/yTo/eeE/yToeeELTE.gif">
+	
+	
+		<script>
+			// this will force whatever is in the () appear
+
+			$("h3").hide();
+
+			$("diff2").slideUp(4000);
+
+			$("diff3").fadeOut(4000);
+
+			// css in jquery
+
+			$("bday1").animate ( {
+				width: 75%,
+			}, 2000 );
+
+			$("h1").css ( {
+				color: blue,
+				font-size: 150% 
+
+				}, 3000 );
+			// when clicked ballons will alert and say happy birthday
+			$(bday2).click function () {
+				alert("Happy Birthday!");
+			}
+
+
+		</script>
+
+
+	</body>
+</html>	
